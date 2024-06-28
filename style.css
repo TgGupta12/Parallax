@@ -1,0 +1,66 @@
+
+*{
+    padding:0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+  }
+  .parallax1 {
+    background-image: url(Food1.jpg);
+    height: 100vh;
+  }
+  .parallax2 {
+    background-image: url(Food2.jpg);
+    min-height: 500px;
+  }
+  .parallax3 {
+    background-image: url(Food3.jpg);
+    min-height: 500px;
+  }
+  .parallax1,
+  .parallax2,
+  .parallax3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .title1,.title2,.title3,.title4 {
+    position: absolute;
+    top: 50%;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 51px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background-color: #fff;
+  }
+  
+  
+  .intro,.almond,.balanced-diet {
+    padding: 50px 80px;
+    text-align: center;
+    width:auto;
+    background-color:black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  section{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    background-color: black;
+  }
